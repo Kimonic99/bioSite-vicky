@@ -139,6 +139,7 @@ function lightUpNav() {
       navEntre.classList.remove("active");
       navAbout.classList.remove("active");
       navResume.classList.remove("active");
+      break;
     case isElementVisible(resumeArea):
       navResume.className = "active";
       navHome.classList.remove("active");
